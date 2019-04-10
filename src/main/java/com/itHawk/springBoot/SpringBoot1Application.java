@@ -12,10 +12,10 @@ import java.util.Locale;
 
 @SpringBootApplication
 //@MapperScan("com.itHawk.*")//扫描：该包下相应的class,主要是MyBatis的持久化类.
-public class SpringBoot04WebRestfulcrudApplication {
+public class SpringBoot1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBoot04WebRestfulcrudApplication.class, args);
+		SpringApplication.run(SpringBoot1Application.class, args);
 	}
 
 	@Bean

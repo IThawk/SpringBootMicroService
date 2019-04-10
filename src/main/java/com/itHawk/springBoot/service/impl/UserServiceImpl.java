@@ -28,7 +28,9 @@ public class UserServiceImpl implements UserService {
         //用户信息查询不到在进行数据库查询
         //将用户的密码进行加密
         String newPassword = encryptUserPassWord(password);
-        User user = new User(username, newPassword);
+        User user = new User();
+        user.setPassword(password);
+        user.setUserName(username);
         return userMapper.selectByUserNameAndPassWord(user);
     }
 

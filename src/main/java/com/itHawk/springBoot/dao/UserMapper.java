@@ -1,7 +1,9 @@
 package com.itHawk.springBoot.dao;
 
 import com.itHawk.springBoot.model.User;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -10,6 +12,10 @@ public interface UserMapper {
     int insertSelective(User record);
 
     User selectByPrimaryKey(Integer id);
+
+    User selectByUserNameAndPassWord(User record);
+
+    User selectByUserName(User record);
 
     int updateByPrimaryKeySelective(User record);
 
