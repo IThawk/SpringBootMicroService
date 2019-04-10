@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="myFirstProjectSpringBoot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/myFirstProjectSpringBoot_jar</output-path>
+    <root id="archive" name="myFirstProjectSpringBoot.jar">
+      <element id="module-output" name="myFirstProjectSpringBoot" />
+    </root>
+  </artifact>
+</component>
