@@ -67,7 +67,7 @@ public class UserController {
     public String login() {
         //之间跳转到注册页面
         User user = userService.selectOne();
-        return user.getUserName()+"fdfff";
+        return user.getUserName()+User.USER_ENC0DE_RULE;
 
     }
 

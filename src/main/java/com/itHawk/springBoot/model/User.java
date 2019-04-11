@@ -1,6 +1,7 @@
 package com.itHawk.springBoot.model;
 
 public class User {
+
     public static final String USER_ENC0DE_RULE="ithawk_user_encrypt_rule";
     private Integer id;
 
